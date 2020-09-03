@@ -1,4 +1,4 @@
-#Desafío del dígito base
+### Temática: Cálculo del dígito base
 
 Para encontrar el dígito base de un entero se tienen que seguir las siguientes reglas:
 
