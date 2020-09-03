@@ -1,4 +1,4 @@
-### Temática: Cálculo del dígito base
+## Temática: Cálculo del dígito base
 
 Para encontrar el dígito base de un entero se tienen que seguir las siguientes reglas:
 
@@ -13,17 +13,18 @@ digito_base(8909) = digito_base(8 + 9 + 0 + 9)
                   = digito_base(8)
                   = 8
 
-## Desafío:
+### Desafío:
 
 Dado un número entero N que llamaremos base y un número K que llamaremos índice de concatenación, debemos encontrar el dígito base 
 del número resultante de la concatenación de K veces N.
 
-Por ejemplo
+Por ejemplo:
+N = 856, K = 2, R = super_digit(865856) = super_digit(8 + 6 + 5 + 8 + 5 + 6) = 2
 
 
 Formato de entrada:
 
-8909
+856 2
 
 Formato de salida:
 
@@ -31,31 +32,10 @@ Formato de salida:
 
 Explicación:
 
-Input Format
-
-The first line contains two space separated integers,  and .
-
-Constraints
-
-Output Format
-
-Output the super digit of , where  is created as described above.
-
-Sample Input 0
-
-148 3
-Sample Output 0
-
-3
-Explanation 0
-
-Here  and , so .
-
-super_digit(P) = super_digit(148148148) 
-               = super_digit(1+4+8+1+4+8+1+4+8)
-               = super_digit(39)
-               = super_digit(3+9)
-               = super_digit(12)
-               = super_digit(1+2)
-               = super_digit(3)
-               = 3.
+super_digit(P) = super_digit(8 + 5 + 6 + 8 + 5 +6) 
+               = super_digit(38)
+               = super_digit(3 + 8)
+               = super_digit(11)
+               = super_digit(1 + 1)
+               = super_digit(2)
+               = 2
