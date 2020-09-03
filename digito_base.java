@@ -11,7 +11,7 @@ public class Solution {
     static int digitoBase(String n, int k) {
 		System.out.println(n);
 		System.out.println(k);
-		return 1
+		return 1;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
