@@ -21,14 +21,13 @@ del número resultante de la concatenación de K veces N.
 Por ejemplo:
 N = 856, K = 2, R = super_digit(865856) = super_digit(8 + 6 + 5 + 8 + 5 + 6) = 2
 
-
 Formato de entrada:
 
 856 2
 
 Formato de salida:
 
-8
+2
 
 Explicación:
 
@@ -39,3 +38,6 @@ super_digit(P) = super_digit(8 + 5 + 6 + 8 + 5 +6)
                = super_digit(1 + 1)
                = super_digit(2)
                = 2
+
+
+Haz tu mayor esfuerzo y diviértete!
