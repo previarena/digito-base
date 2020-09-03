@@ -1,5 +1,7 @@
 ## Temática: Cálculo del dígito base
 
+[![Run on Repl.it](https://repl.it/badge/github/previarena/digito-base)](https://repl.it/github/previarena/digito-base)
+
 Para encontrar el dígito base de un entero se tienen que seguir las siguientes reglas:
 
 * Se considerará el dígito base, si el número es sólo un dígito.
