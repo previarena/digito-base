@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class DigitoBase {
 
     static int digitoBase(String n, int k) {
 		System.out.println(n);
