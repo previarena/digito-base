@@ -2,8 +2,8 @@
 
 Para encontrar el dígito base de un entero se tienen que seguir las siguientes reglas:
 
-* Se considerará el dígito base, si lo resultante es un dígito.
-* Si es que no es un dígito base, entonces debemos sumar cada uno de los dígitos que lo componen, y volver a evaluar si es o no un dígito base. De lo contrario,
+* Se considerará el dígito base, si el número es sólo un dígito.
+* Si es que el entero no es un dígito base, entonces debemos sumar cada uno de los dígitos del entero, y volver a evaluar si es o no un dígito base. De lo contrario,
 se debe ejercer este paso nuevamente.
 
 Un dígito base puede ser calculado de la siguiente manera:
