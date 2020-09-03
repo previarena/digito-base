@@ -2,22 +2,34 @@
 
 Para encontrar el dígito base de un entero se tienen que seguir las siguientes reglas:
 
-*
+* Se considerará el dígito base, si lo resultante es un dígito.
+* Si es que no es un dígito base, entonces debemos sumar cada uno de los dígitos que lo componen, y volver a evaluar si es o no un dígito base. De lo contrario,
+se debe ejercer este paso nuevamente.
 
-If  has only  digit, then its super digit is .
-Otherwise, the super digit of  is equal to the super digit of the digit-sum of . Here, digit-sum of a number is defined as the sum of its digits.
-For example, super digit of  will be calculated as:
+Un dígito base puede ser calculado de la siguiente manera:
+digito_base(8909) = digito_base(8 + 9 + 0 + 9)
+                  = digito_base(26)
+                  = digito_base(2+6)
+                  = digito_base(8)
+                  = 8
 
-super_digit(9875) = super_digit(9+8+7+5) 
-                  = super_digit(29) 
-                  = super_digit(2+9)
-                  = super_digit(11)
-                  = super_digit(1+1)
-                  = super_digit(2)
-                  = 2.
-You are given two numbers  and . You have to calculate the super digit of .
+## Desafío:
 
- is created when number  is concatenated  times. That is, if  and , then .
+Dado un número entero N que llamaremos base y un número K que llamaremos índice de concatenación, debemos encontrar el dígito base 
+del número resultante de la concatenación de K veces N.
+
+Por ejemplo
+
+
+Formato de entrada:
+
+8909
+
+Formato de salida:
+
+8
+
+Explicación:
 
 Input Format
 
