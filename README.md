@@ -31,13 +31,13 @@ Formato de salida:
 
 Explicación:
 
-super_digit(P) = super_digit(8 + 5 + 6 + 8 + 5 +6) 
-               = super_digit(38)
-               = super_digit(3 + 8)
-               = super_digit(11)
-               = super_digit(1 + 1)
-               = super_digit(2)
-               = 2
+super_digit(P) = super_digit(8 + 5 + 6 + 8 + 5 +6)  
+               = super_digit(38)  
+               = super_digit(3 + 8)  
+               = super_digit(11)  
+               = super_digit(1 + 1)  
+               = super_digit(2)  
+               = 2  
 
 
 Haz tu mayor esfuerzo y diviértete!
