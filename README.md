@@ -21,7 +21,12 @@ del número resultante de la concatenación de K veces N.
 
 Por ejemplo:
 
-> N = 856, K = 2, R = super_digit(865856) = super_digit(8 + 6 + 5 + 8 + 5 + 6) = 2
+> N = 856, K = 2, R = super_digit(856856) = super_digit(8 + 5 + 6 + 8 + 5 + 6) = 2
+
+Restricciones:
+
+> 1 <= N < 10000
+> 1 <= K <= 10
 
 Formato de entrada:
 
